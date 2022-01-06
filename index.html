@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <div class="outer-box">
+    <div class="form-box">
+      <div class="button-box">
+        <div  id="btn">
+        </div>
+        <button type="button"  onclick="login()" class="toggle-btn">Log In</button>
+        <button type="button" onclick="register()" class="toggle-btn">Sign Up</button>
+      </div>
+      <form id="login" class="input-items">
+        <input type="email" class="input-field" name="" value="" placeholder="Email" required>
+        <br><br>
+        <input type="password" class="input-field" name="" value="" placeholder="Password" required>
+        <br>
+        <input type="checkbox" class="check-box" name="" value="">
+        <span>Remember Password</span>
+        <button type="submit" class="submit-btn" name="button">Log In</button>
+      </form>
+      <form id="signup" class="input-items">
+        <input type="text" class="input-field" name="" value="" placeholder="User Name" required>
+        <br><br>
+        <input type="email" class="input-field" name="" value="" placeholder="Email" required>
+        <br><br>
+        <input type="password" class="input-field" name="" value="" placeholder="Password" required>
+        <br>
+        <input type="date"  class="input-field" name="" value="" placeholder="DOB">
+        <input type="checkbox" class="check-box" name="" value="">
+        <span>I agree to the terms & conditions</span>
+        <button type="submit" class="submit-btn" name="button">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
